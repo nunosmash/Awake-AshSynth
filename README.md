@@ -1,4 +1,4 @@
-# awake-ashsynth
+# Awake-AshSynth
 
 ![awake-ashsynth on norns](https://raw.githubusercontent.com/nunosmash/Awake-AshSynth/main/awake-ashsynth.png)
 
