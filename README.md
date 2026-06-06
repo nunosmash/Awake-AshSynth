@@ -212,13 +212,16 @@ MIDI Program Change (PC 0–15) can recall saved presets on your norns (`dust/da
 
 ```
 awake-ashsynth/
-└── awake-ashsynth.lua      # main script
+├── awake-ashsynth.lua      # main script
+└── lib/
+    ├── ash_engine.lua      # Ash params & engine bridge
+    └── beatclock-crow.lua  # clock
 
 ashsynth/
 ├── ashsynth.lua     # main script
 └── lib/
     ├── ash_engine.lua      # Ash params & engine bridge
-    └── beatclock-crow.lua  # clock
+    └── Engine_Ash.sc  # engine
 ```
 
 Presets are saved locally on norns under `dust/data/awake-ashsynth/` (not included in this repo).
