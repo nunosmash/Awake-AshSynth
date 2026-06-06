@@ -1,5 +1,7 @@
 # awake-ashsynth
 
+![awake-ashsynth on norns](https://raw.githubusercontent.com/nunosmash/Awake-AshSynth/main/awake-ashsynth.png)
+
 A norns script that pairs the **Awake sequencer** with the **AshSynth engine**.  
 It follows the same sequencing structure as `awake-passersby`, but uses the **Ash** engine instead of Passersby.
 
