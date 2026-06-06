@@ -241,8 +241,26 @@ data/awake-ashsynth/
 
 ---
 
+## License
+
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
+See [LICENSE](LICENSE) for the full text.
+
+### Third-party components
+
+| Component | License | Notes |
+|-----------|---------|-------|
+| [awake](https://github.com/tehn/awake) | GPL-3.0 (norns ecosystem) | Sequencer structure & UI |
+| [awake-passersby](https://github.com/nattog/awake-passersby) | GPL-3.0 | Direct basis for this script |
+| [passersby](https://github.com/markwheeler/passersby) | GPL-3.0 | awake-passersby engine reference |
+| [ashsynth](https://github.com/nunosmash/ashsynth) | Apache 2.0 | `lib/ash_engine.lua`; requires `Engine_Ash.sc` from ashsynth |
+
+`lib/ash_engine.lua` is derived from ashsynth (Apache 2.0) and is included in this GPL-3.0 distribution per Apache–GPL compatibility.
+
+---
+
 ## Credits
 
-- Awake sequencer: @tehn
-- Based on awake-passersby
-- Ash engine: ashsynth
+- Awake sequencer: [@tehn](https://github.com/tehn)
+- Based on [awake-passersby](https://github.com/nattog/awake-passersby) / [awake](https://github.com/tehn/awake)
+- Ash engine: [ashsynth](https://github.com/nunosmash/ashsynth)
